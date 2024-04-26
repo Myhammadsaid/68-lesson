@@ -1,0 +1,33 @@
+.company {
+  margin-bottom: 114px;
+}
+
+.company-cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.company-card {
+  max-width: 310px;
+  padding: 20px;
+  background: #f4f6fa;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.company-text {
+  color: #242424;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21.6px;
+  margin-bottom: 5px;
+}
+.company-par {
+  color: #adadad;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}

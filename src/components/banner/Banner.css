@@ -1,0 +1,99 @@
+.hero {
+  background-image: url(../../assets/images/noteboock.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+  margin-bottom: 75px;
+}
+
+.swiper-button-prev {
+  display: none !important;
+}
+
+.swiper-button-next {
+  display: none !important;
+}
+
+.hero-style {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 100px;
+}
+
+.hero-content {
+  max-width: 550px;
+}
+
+span {
+  color: #f53e32;
+}
+
+.hero-title {
+  color: #212529;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.47999998927116394px;
+  margin-bottom: 18px;
+}
+
+.hero-text {
+  font-size: 55px;
+  font-weight: 900;
+  line-height: 68px;
+  letter-spacing: 0.47999998927116394px;
+  margin-bottom: 20px;
+}
+
+.hero-par {
+  color: #7a7a7a;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 26.25px;
+  letter-spacing: 0.47999998927116394px;
+  margin-bottom: 48px;
+}
+
+.hero-form {
+  position: relative;
+}
+
+.email {
+  width: 292.45px;
+  outline: none;
+  border: 1px solid #212529;
+  height: 64px;
+  padding: 0px 2px 0px 58px;
+  border-radius: 50px 0px 0px 50px;
+}
+
+.hero-btn {
+  width: 157.55px;
+  position: absolute;
+  cursor: pointer;
+  left: 220px;
+  height: 64px;
+  border-radius: 50px;
+  border: none;
+  background: #3bb77e;
+  color: #fff;
+}
+
+.hero-btns {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.hero-btn1 {
+  width: 139.06px;
+  cursor: pointer;
+  height: 46px;
+  border-radius: 30px;
+  border: 1px;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #3bb77e;
+}

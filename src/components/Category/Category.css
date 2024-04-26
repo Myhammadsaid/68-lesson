@@ -1,0 +1,50 @@
+.category {
+  margin-bottom: 49px;
+}
+
+.category-cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.category-card {
+  max-width: 512px;
+  height: 244px;
+  padding: 50px;
+  border: 1px solid #253d4e;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.category-text {
+  max-width: 225px;
+  color: #253d4e;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28.8px;
+  margin-bottom: 25px;
+}
+
+.category-btn {
+  width: 103.61px;
+  height: 31.59px;
+  border-radius: 4px;
+  background: #f53e32;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15.6px;
+  letter-spacing: 0.5px;
+}
+
+.category-img {
+  width: 90px;
+  height: 100px;
+  display: block;
+}

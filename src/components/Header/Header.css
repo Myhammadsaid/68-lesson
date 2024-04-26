@@ -1,0 +1,99 @@
+header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background: #fff;
+  z-index: 10;
+}
+
+.header-top {
+  padding: 15px 0;
+  box-shadow: 0px 0px 8px 0px #33333333;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.nav-item {
+  color: #000;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0.47999998927116394px;
+}
+
+.phone {
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  text-decoration: none;
+}
+
+.header-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.in-search {
+  width: 600px;
+  height: 45px;
+  outline: none;
+  padding-left: 10px;
+  border: 1px solid #64b496;
+  border-radius: 5px;
+}
+
+select {
+  position: absolute;
+  right: 45px;
+  width: 130px;
+  height: 45px;
+  outline: none;
+  padding: 10px;
+}
+
+.header-btn {
+  position: absolute;
+  right: 0;
+  width: 45px;
+  height: 45px;
+  border: none;
+  background: #f53e32;
+  cursor: pointer;
+  border-radius: 0px 5px 5px 0px;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  color: #000;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: 0.47999998927116394px;
+}
